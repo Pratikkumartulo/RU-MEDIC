@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ru-medytwopo",
+  "private_key_id": "05c5ba07a692849c8832604f51e35e3fe80c94cb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOoTHvYdV4eoCt\nMu2x8o48OnRugPYBhOwN7BRiRcK9Yj9HUDUTee6XKp0tyht8NjERZ31mhBJdTYVh\n+Tfl2QHEDs8mZ9jGcrvEXDeNvezr73uGJf2fSn+3UJs124e2x5I/+ouHHV62KnA4\nZ0XdksPuvjuzBIhyu5Jr8lBftxkclLILVxPrh5hB55reglK5GT7fpJrJ/5rPAF3q\nfp5L6cPI2rzqgUHBjaMWz1A3zfC5wiGFNknmxwnLe2aoTEQzUsq/PgC3RDUjUIfo\nCsLYDEitu+iyNZO7Cu4BDPB28VjNhPkzj045GBTP36eIPqd2J7zqvofQa7ZOQjmw\nHEFs7/mhAgMBAAECggEABgDI4puFCCsG8gE4xqK1XyqTl2JHw2OJOB5TuUctkTL5\ng6jg4d/4/otOZbYpdkJcypSnIANWRT+rUF1dMmBLnNaRThxWP+21Zs8HDicmavRa\nMluIMsiHTVwaJkZqevTxWsp8o0BHMCOrfvgBH57T8mu0cE8BZ9PrPRedHirDoADk\njAktNKV6ikcoUFTpZ4Pkf5Niny5oQazPZ88oPD4a3oznlh25YhKYFO90dmc9xtws\nlGRsWlvc00Ck+rt6r9Dvr5jDYmoLUwUHal7IX8BUGxBgKabsQBK1Qcx21LHH7hOY\nhCwNYNoii4vtGP1TbW1Dnqfg3po0PQAazwvTPGr8wQKBgQDuOkeMEdu/NBvQaK+0\nRqR14lvuNZ6AyDZhdc+cR0pr1okeEEcIG0DxGyyALhrTRKmTPGw7/nkLbM5EZrgu\nriJG7ruEdyzxye3MMs40wzL7BtQRENcnY3rTInTaCuvAIMcBvyNRObtFCUQe6S+P\nf+eB1PlIvGh60fu/w/4HRMMuOwKBgQDeC3NluQqc2fADiY6e7XEEwiPOp5ovhy7z\nOsr34VmMBslEF+Zks79/fdl7Wd+6wTQPSKeIsWslNiR/YckjD3VsFDbKWBm36Xj+\nelGy2Zg/NnADdWQVWdqus1Zjtih4bM5KTzxzu6nM3FNhPNnLONjUX4TFvHkrdTzS\nPPlZUUmt0wKBgQCb640UgkO/W02xFDOb3Hibp3Hf8TwysdfV5hPiB08QUbQg9ypm\nhd/1boGry4FHMbODaJK2mZGEBsziPBDkjJhmsK4Ovymtfyqi8cXBBtmBLzDxkoIf\nh57GPdEZPPicIVffLsjgytZlEvGBAcJdO6u8cDZQgvAnIvSQyKik/T56LQKBgC4N\nAene7qyJJpYVOVcMt5vdB8AcUoX462vWjbHLMt8vqR5ONqI8BUNTvn8urI/28e0Z\njGV1JluZVwh0J1r2IcxAhPyCORNDgKyGgdst9b1mdOTCu/cRo6EH4KrdZJdVOZN/\ny3HVQeoS59gK3sCfEZk6FjdMV3UD45FWxAAaM8WxAoGAVurjObuBLTCRLmpE9YKE\nC57kj+hK0GQEKoRmbyK1EB8NTIgOAhrHn7UehfBhZ90JZrxxIaZqTWxUEZ8gWved\nTo5Ztmf2TCwKqIi8oK8kpvC1iS6O5Zt+r5y3EiWmJyOnNaJJuCuxV/jadLID8fK+\nZVQuIuw+j5cLQ4PAQpszWTk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-pehr6@ru-medytwopo.iam.gserviceaccount.com",
+  "client_id": "101316452347076237738",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pehr6%40ru-medytwopo.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,52 @@
+<%- include("../boilerplate/boilerplate") %>
+<style>
+     
+</style>
+
+<body>
+    <h1 align="center">Availability of Doctors in : <%= hospitalName %></h1>
+    <div class="Aval">
+        <% Object.keys(data).forEach((DocProf) => { %>
+            
+            <% let name = data[DocProf] %>
+            <div class="aval-doc">
+                <h1 align="center"><%= DocProf %></h1>
+                <% Object.keys(name).forEach((DocNAME) => { %>
+                    <% if (name[DocNAME] != "Unavailable") { %>
+                        <div class="doctor">
+                            <div class="doc-pic">
+                                <img src="/man.png" alt="">
+                            </div>
+                            <div class="flex doc-name"><%= DocNAME %></div>
+                            <div class="flex doc-status"><%= name[DocNAME] %></div>
+                            <div class="flex doc-reg">
+                                <form action="/appoint" method="post" class="reg-form">
+                                    <% const today = new Date().toISOString().substr(0, 10); %>
+                                    <input value="<%= DocNAME %>" name="docName" style="display: none;">
+                                    <input value="<%= DocProf %>" name="DocProf" style="display: none;">
+                                    <input type="date" value=<%= today%> min=<%= today %> name="date">
+                                    <button class="btn btn-success">Register</button>
+                                 </form>
+                            </div>
+                        </div>
+                    <% } %>
+                <% }) %>
+                <% Object.keys(name).forEach((DocNAME) => { %>
+                    <% if (name[DocNAME] === "Unavailable") { %>
+                        <div class="doctor">
+                            <div class="doc-pic">
+                                <img src="/man.png" alt="">
+                            </div>
+                            <div class="flex doc-name"><%= DocNAME %></div>
+                            <div class="flex doc-status"><%= name[DocNAME] %></div>
+                            <div class="flex doc-reg"><form action="">
+                                <% const today = new Date().toISOString().substr(0, 10); %>
+                                <input type="date" value=<%= today%> disabled>
+                            </form></div>
+                        </div>
+                    <% } %>
+                <% }) %>
+            </div>
+        <% }) %>
+    </div>
+</body>

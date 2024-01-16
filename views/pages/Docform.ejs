@@ -1,0 +1,43 @@
+<%- include("../boilerplate/boilerplate") %>
+
+    <body>
+        <% if (success && success.length){ %>
+            
+            <div class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
+                <%= success %>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <% } %>
+            <h1>Child Doctors</h1>
+        <form action="/DoctorStatus" method="post">
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">DR ABC</label>
+                <select class="form-select" id="inputGroupSelect01" name="DR ABC">
+                    <option selected value="Available">Available</option>
+                    <option value="Unavailable">UnAvailable</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">DR DEF</label>
+                <select class="form-select" id="inputGroupSelect01" name="DR DEF">
+                    <option selected value="Available">Available</option>
+                    <option value="Unavailable">UnAvailable</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">DR GHI</label>
+                <select class="form-select" id="inputGroupSelect01" name="DR GHI">
+                    <option selected value="Available">Available</option>
+                    <option value="Unavailable">UnAvailable</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">DR JKL</label>
+                <select class="form-select" id="inputGroupSelect01" name="DR JKL">
+                    <option selected value="Available">Available</option>
+                    <option value="Unavailable">UnAvailable</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </body>

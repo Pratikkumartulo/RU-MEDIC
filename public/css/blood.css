@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+#bar{
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.bn632-hover {
+    /* width: 160px; */
+    width: ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn23 {
+    background-image: linear-gradient(
+      to right,
+      #a8a7a9,
+      #1baa11,
+      #cb5b9a,
+      #e30000
+    );
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+  }
+
+  #bar > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:412px) {
+      #bar{
+        width: 70vw;
+      }
+      .wp-holder{
+        padding: 0;
+        margin: 0;
+        width: 20px;
+        /* height: 100%; */
+      }
+  }

@@ -1,0 +1,21 @@
+.Login-box {
+    height: 80vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginbx {
+    height: 90%;
+    width: 90vw;
+    /* background-color: #dadada; */
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

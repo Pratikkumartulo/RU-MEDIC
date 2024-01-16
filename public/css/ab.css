@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    height: 50px;
+    background: linear-gradient(-20deg, rgb(233, 222, 250) 0%, rgb(251, 252, 219) 100%);
+}
+
+.card {
+    background-color: rgb(137, 131, 131);
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width:412px) {
+    .card{
+        margin-top: 40px;
+    }
+}

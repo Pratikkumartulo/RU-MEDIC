@@ -1,0 +1,24 @@
+<%- include("../boilerplate/boilerplate") %>
+
+<body>
+   <div class="Search-reasult">
+    <% if(result.length>0){%>
+      <% for(res of result){ %>
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title"><%= res.name %></h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary"><%= res.address %></h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex asperiores obcaecati, suscipit sint nam.</p>
+                <a href="#" class="card-link"><%= res.contact %></a>
+              </div>
+            </div>
+          <% } %>
+  <% }%>
+  <% if(result.length==0){ %>
+      <div class="alert alert-danger" role="alert">
+          No result in database !!
+        </div>
+  <% } %>
+   </div>
+
+</body>

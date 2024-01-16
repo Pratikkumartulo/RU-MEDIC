@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/logo.png" alt="RuMedy" width="150" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/bloodgrp">Blood Donate</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Other Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Doctor consultant</a></li>
+            <li><a class="dropdown-item" href="#">Ambulance</a></li>
+            <li><a class="dropdown-item" href="#">Find Blood</a></li>
+            <li><a class="dropdown-item" href="#">Resource Availability</a></li>
+            <li><a class="dropdown-item" href="#">Ward Availability</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <form class="d-flex search" role="search" action="/search" method="get">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="hospiName">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </ul>
+      <form action="/User">
+        <button class="btn btn-outline-success me-2" type="submit">User</button>
+      </form>
+    </div>
+  </div>
+</nav>
